@@ -18,8 +18,8 @@ function App() {
           <CountDownTimer hoursMinSecs={{ minutes: 90, seconds: 0 }} />
         </div>
       </div>
-      <img src={BgOne} className="bgOne-image" />
-      <img src={BgTwo} className="bgTwo-image" />
+      <img src={BgOne} alt="bg" className="bgOne-image" />
+      <img src={BgTwo} alt="bg" className="bgTwo-image" />
       <div className="description">
         <p>
           Blinking of eyes might seem like an insignificant task. But

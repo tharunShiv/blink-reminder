@@ -7,7 +7,7 @@ export default function Header() {
     <header>
       <span className="header-left">
         <span>
-          <img src={logo} alt="swamy logo" className="logo" />
+          <img src={logo} alt="logo" className="logo" />
         </span>
         <span className="header-title">blink reminder</span>
       </span>
