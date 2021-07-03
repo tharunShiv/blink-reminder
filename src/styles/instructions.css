@@ -1,0 +1,11 @@
+.description {
+  max-width: 600px;
+  text-align: justify;
+  color: #eee;
+}
+
+.instructions {
+  max-width: 400px;
+  text-align: justify;
+  color: #00adb5;
+}
