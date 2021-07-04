@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import CountDownTimer from "./CountDownTimer.js";
 import "../styles/section.css";
 
@@ -10,7 +10,6 @@ export default function Header() {
   const [isRegularTimer, setIsRegularTimer] = React.useState(true);
   const [isShortInterval, setIsShortInterval] = React.useState(false);
   const [isLongInterval, setIsLongInterval] = React.useState(false);
-  const [shouldReset, setShouldReset] = React.useState(false);
 
   const setNewInterval = (newInterval) => {
     setInterval(newInterval);
@@ -19,9 +18,9 @@ export default function Header() {
     setIsShortInterval(false);
     setIsLongInterval(false);
 
-    if (newInterval.minutes == 90) {
+    if (newInterval.minutes === 90) {
       setIsLongInterval(true);
-    } else if (newInterval.minutes == 60) {
+    } else if (newInterval.minutes === 60) {
       setIsRegularTimer(true);
     } else {
       setIsShortInterval(true);

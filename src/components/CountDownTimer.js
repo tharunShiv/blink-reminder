@@ -1,4 +1,4 @@
-import React, { cloneElement, useContext } from "react";
+import React from "react";
 import "../styles/CountDownTimer.css";
 import UseSound from "use-sound";
 import notifyOne from "../assets/sounds/notify-1.mp3";
@@ -34,7 +34,7 @@ const CountDownTimer = ({ hoursMinSecs }) => {
     return () => clearInterval(timerId);
   });
 
-  if (currentMinutes != Number(minutes)) {
+  if (currentMinutes !== Number(minutes)) {
     setCurrentInterval(minutes);
     reset();
   }
