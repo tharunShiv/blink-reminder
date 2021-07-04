@@ -78,7 +78,7 @@ export default function Header() {
           )}
         </div>
         <div className="timer">
-          <CountDownTimer hoursMinSecs={{ ...interval }} reset={shouldReset} />
+          <CountDownTimer hoursMinSecs={{ ...interval }} />
         </div>
         <div className="section-timer-actions">
           {/* <button className="enable-notifications-button">
