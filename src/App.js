@@ -3,7 +3,7 @@ import Header from "./components/Header.js";
 import Background from "./components/Background.js";
 import IntervalSelector from "./components/IntervalSelector.js";
 import Instructions from "./components/Instructions.js";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
