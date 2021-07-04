@@ -9,12 +9,21 @@ export default function Header() {
         <span>
           <img src={logo} alt="logo" className="logo" />
         </span>
-        <span className="header-title">blink reminder</span>
+        <span className="header-title">
+          <a className="header-link" href="/">
+            blink reminder
+          </a>
+        </span>
       </span>
       <span className="header-right">
-        <span className="header-right-button">Blog</span>
+        {/* <span className="header-right-button">Blog</span>
         <span className="header-right-button">Settings</span>
-        <span className="header-right-button">Contact</span>
+        <span className="header-right-button">Contact</span> */}
+        <span className="header-right-button">
+          <a className="header-link" href="/about">
+            about
+          </a>
+        </span>
       </span>
     </header>
   );

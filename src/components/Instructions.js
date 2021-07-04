@@ -18,8 +18,12 @@ export default function Header() {
       <div className="instructions">
         <p>
           &diams; Blink reminder will remind you at each interval with a
-          notification sound. Please blink your eyes continuously for 30 seconds
-          until you receive the next notification sound.{" "}
+          notification sound.
+        </p>
+
+        <p>
+          &diams; Look at a far off object and blink your eyes continuously for
+          30 seconds
         </p>
 
         <p>&diams; Next, close your eyes for 60 seconds </p>
